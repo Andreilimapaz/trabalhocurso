@@ -1,0 +1,46 @@
+div{
+    padding: 0;
+}
+
+nav{
+    background-color: blue;
+    width: 100%;
+    height: 56px;
+}
+
+.searchbar{
+    background-color: white;
+}
+
+.navbar{
+    color: white;
+    padding: 0;
+    margin: 0
+}
+
+.logo-f{
+    color: white;
+    float: right;
+}
+
+.logo{
+    max-width: 100px;
+}
+
+.user-pic{
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    float: left;
+}
+
+.username{
+    padding-left: 5px;
+    padding-top: 8px;
+}
+
+#navitems{
+    max-width: max-content;
+}
