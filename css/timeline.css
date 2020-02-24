@@ -5,7 +5,7 @@ div{
 nav{
     background-color: blue;
     width: 100%;
-    height: 56px;
+    height: 20%;
 }
 
 .searchbar{
@@ -43,4 +43,20 @@ nav{
 
 #navitems{
     max-width: max-content;
+}
+
+#barra-esquerda{
+    height: 90vh;
+    background-color: tomato;
+    padding-left: ;
+}
+
+#main{
+}
+
+#chat{
+}
+
+#timeline{
+    height: 90vh;
 }
