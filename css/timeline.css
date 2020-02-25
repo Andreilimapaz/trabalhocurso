@@ -45,18 +45,39 @@ nav{
     max-width: max-content;
 }
 
-#barra-esquerda{
+#barra-esquerda ul{
+    float: right;
     height: 90vh;
-    background-color: tomato;
-    padding-left: ;
 }
 
 #main{
 }
 
-#chat{
+#chat ul{
+    float: right;
 }
 
 #timeline{
-    height: 90vh;
+    height: 200vh;
+    background-color: tomato;
+}
+
+#post{
+    height: 200px;
+}
+
+#ads{
+    background-color: teal;
+}
+
+.topbar{
+    height: 28px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.text-post{
+    width: 100%;
+    height: 100%;
+    border: none;
 }
