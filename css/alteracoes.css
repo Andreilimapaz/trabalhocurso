@@ -1,0 +1,268 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.center {
+  max-width: 1100px;
+  padding:0 2%;
+  margin: 0 auto;
+}
+
+.clear {clear: both;}
+
+header {
+  background: #3b5998;
+  padding: 0px 0;
+}
+
+.logo {
+  margin-top: 15px;
+  float: left;
+  color: white;
+}
+
+.logo h2 {
+  font-size: 49px;
+  font-weight: normal;
+}
+
+.form-login {
+  float: right;
+  margin-right: -30px
+}
+
+.form-login .form-element {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.esqueci {
+  font-size: 14px;
+  color: #9cb4d8;
+}
+
+.form-element p {
+  margin: 4px 0px 0px;
+  color: white;
+  font-size: 14px;
+}
+
+.form-element input[type=email],
+.form-element input[type=password] {
+  margin-top: 12px;
+  border: 0;
+  height: 23px;
+  padding-left: 1px;
+}
+
+.form-element input[type=submit] {
+  cursor: pointer;
+  border: 0;
+  background: #365899;
+  border: 2px solid #3658c7;
+  color: white;
+  padding: 3px 5px;
+}
+
+.form-element input[type=submit]:hover {
+  background: #215ab2;
+}
+
+html {
+  background-color: #e4e8f5;
+}
+
+ .gax{
+   align-items: center;
+   background-color: #f5f6f7;
+   border-top-left-radius: 4px;
+   border-top-right-radius: 4px;
+   display: flex;
+   height: 165px;
+   justify-content: center;
+   width: 160px;
+   margin: -212px 200px 0px;
+ }
+
+ .conta {
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 70;
+  background-color: white;
+  color: blue;
+  width: 160px;
+  height: 48px;
+ }
+
+.foto input[type=text] {
+  border: 1;
+  height: 50px;
+  width: 160px;
+  font-size: 20px;
+  margin: 0px 0px;
+}
+
+.img-pessoa p {
+  font-size: 18px;
+  color: #333;
+}
+
+.img-pessoa h3 {
+  color: black;
+  font-size: 40px;
+}
+
+.img-pessoa {
+  float: left;
+  width: 60%;
+}
+
+.img-pessoa {
+  max-width: 100%;
+}
+
+.abrir-conta {
+  margin-top: 20px;
+  width: 40%;
+  float: left;
+}
+
+.abrir-conta h2 {
+  color: black;
+  font-size: 35px;
+}
+
+.abrir-conta h3 {
+  font-size: 19px;
+  color: rgb(30,30,30);
+  margin-top: 8px;
+  font-weight: normal;
+}
+
+.criar-conta {
+  margin-top: 10px;
+}
+
+.w50 {
+  width: 50%;
+  padding: 0 5px;
+  float: left;
+}
+
+.w100 {
+  padding: 0  5px;
+  width: 100%;
+  float: left;
+}
+
+form.criar-conta input {
+  width: 100%;
+  margin-top: 8px;
+}
+
+form.criar-conta input[type=email],
+form.criar-conta input[type=text],
+form.criar-conta input[type=text] {
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 1px solid #a5dcff;
+    border-radius: 8px; 
+}
+
+form.criar-conta input[type=submit] {
+  height: 40px;
+  background: linear-gradient(#67ae55, #578843);
+  color: white;
+  cursor: pointer;
+  border: 0;
+  max-width: 200px;
+  font-size: 19px;
+}
+
+form .w100 h2 {
+  margin-top: 10px;
+  color: #90949c;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+select.nascimento {
+  float: left;
+  margin-top: 5px;
+}
+
+.radio-inline {
+  margin-top: -10px;
+  margin-left: -50px;
+  width: 184px;
+}
+
+.radio-inline p {
+  margin: 20px 105px 20px;
+  margin-top: -25px;
+}
+
+.genero {
+  width: auto;
+  height: auto;
+  margin: 8px 10px;
+  font-size: 20px;
+}
+
+.genero p {
+  color: #90949c;
+}
+
+.texto-termos p {
+  font-size: 11px;
+  color: #777;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  form.form-login {
+    margin-top: 17px;
+    display: inline-block;
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-login .form-element {
+  display: block;
+  margin: 10px 0;
+}
+
+  .form-element p {
+    margin: 4px 0px 0px;
+    color: white;
+    font-size: 14px;
+  }
+
+  .form-element input[type=email],
+  .form-element input[type=password] {
+    margin-top: 12px;
+    border: 0;
+    height: 23px;
+    padding-left: 700px;
+    width: 100%;
+    max-width: 320px;
+  }
+  .form-element input[type=submit] {
+    width: 140px;
+  }
+    .img-pessoa {
+      display: block;
+    }
+    
+    .abrir-conta {
+      width: 100%;
+    }
+  }

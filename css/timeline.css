@@ -3,7 +3,7 @@ div{
 }
 
 nav{
-    background-color: blue;
+    background-color: #3b5998;
     width: 100%;
     height: 20%;
 }
@@ -35,6 +35,17 @@ nav{
     overflow: hidden;
     float: left;
 }
+.user-pic-chat{
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    float: left;
+    margin: auto;
+}
 
 .username{
     padding-left: 5px;
@@ -53,17 +64,30 @@ nav{
 #main{
 }
 
-#chat ul{
-    float: right;
+
+
+#chat{
+    border-left: lightgray solid 2px;
+    height: 100vh;
 }
 
+
+.username-chat{
+ max-width: fit-content ;
+}
+
+.colpicchat{
+    max-width: fit-content;
+    padding: 0;
+    padding-left: 10px;
+}
 #timeline{
     height: 200vh;
     background-color: tomato;
 }
 
 #post{
-    height: 200px;
+    height: 150px;
 }
 
 #ads{
@@ -76,8 +100,15 @@ nav{
     background-color: lightgray;
 }
 
-.text-post{
+#container-post{
     width: 100%;
     height: 100%;
-    border: none;
+    background-color: yellow;
 }
+.text-post{
+    width: 100%;
+    height: 50%;
+    border: none;
+    border-bottom: 5px;
+}
+
